@@ -13,4 +13,4 @@ namespace LAB_1
         }
     }
 }
-HELLO WORLD FROM VICHEKA PHAT
+Hello World From Vicheka Phat
