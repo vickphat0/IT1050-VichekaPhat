@@ -10,7 +10,10 @@ namespace LAB_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World From Vicheka Phat");
+            Console.ReadLine();
+
+
         }
     }
 }
-Hello World From Vicheka Phat
