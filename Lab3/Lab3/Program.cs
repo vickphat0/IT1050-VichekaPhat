@@ -20,10 +20,14 @@ namespace Lab3
 
             speedLimit = 35;
             speed = 45;
-
+            Console.WriteLine("your speed");
+            speed = Convert.ToInt32(Console.ReadLine());
             if (speed > speedLimit)
             {
                 Console.WriteLine("SLOW NOW");
+
+            }
+                
 
                 {
 
@@ -42,9 +46,33 @@ namespace Lab3
                     }
 
 
-                    Console.ReadLine();
+                    
 
 
+                       {
+                        Console.WriteLine("Input temperature in Fahrenheit");
+                        double fahrenheit = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine();
+                        double Celsius = (fahrenheit - 32d) * 5d / 9d;
+                        
+
+                        if (fahrenheit >= 90)
+                        {
+                         Console.WriteLine("it is hot");
+                        }
+
+
+
+                        if (fahrenheit <= 40)
+                        {
+                         Console.WriteLine("it is cold");
+                        }
+
+                    
+
+
+
+                            Console.ReadLine();
 
 
 
@@ -53,13 +81,18 @@ namespace Lab3
 
 
                 }
-            }
 
-        }       
+
+
+
+                }
+        }
+
+    }       
                 
 
 
 
               
-    }
 }
+
