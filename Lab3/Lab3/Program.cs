@@ -46,46 +46,128 @@ namespace Lab3
                     }
 
 
-                    
 
 
-                       {
+
+                    {
                         Console.WriteLine("Input temperature in Fahrenheit");
                         double fahrenheit = Convert.ToDouble(Console.ReadLine());
                         Console.WriteLine();
                         double Celsius = (fahrenheit - 32d) * 5d / 9d;
-                        
+
 
                         if (fahrenheit >= 90)
                         {
-                         Console.WriteLine("it is hot");
+                        Console.WriteLine("it is hot");
                         }
 
-
+                        Console.ReadLine();
 
                         if (fahrenheit <= 40)
                         {
-                         Console.WriteLine("it is cold");
+                        Console.WriteLine("it is cold");
                         }
 
-                    
+                        Console.ReadLine();
 
+
+
+
+
+
+
+                    }
+
+                        
+
+
+
+
+
+                       
+
+
+
+
+                }
+
+
+
+                         {
+                            int x = 1;
+
+                            while (x < 11)
+                            {
+                             Console.WriteLine(x); 
+
+                             x++;
+                            }
 
 
                             Console.ReadLine();
 
 
+                            Console.WriteLine();
+
+                            int a = 60;
+
+                            while (a > 19)
+                            {
+                             Console.WriteLine(a);
+
+                             a -= 5;
+                            }
+
+
+                             Console.ReadLine();
+
+                         }
+
+
+                                 {
+                                    int x = 10;
+
+                                    while (x < 21)
+                                    {
+                                        Console.WriteLine(x++);
+
+                                        x++;
+                                    }
+
+                                         Console.ReadLine();
 
 
 
 
 
-                }
+                                 }
 
 
 
 
-                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
     }       
