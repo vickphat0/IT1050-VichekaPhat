@@ -113,20 +113,46 @@ namespace Lab_4
 
 
 
+            {
+                int i = 10;
+                while (i < 21)
+                {
+                    Console.WriteLine(i);
+
+                    i++;
+                }
+            }
 
 
 
+                    {
+                        for (int i = 0; i < 101; i++)
+                        {
+                            Console.WriteLine(i);
+                            Console.WriteLine("********");
+                        }
 
-
-
-
-
-
-
+                    }
 
 
 
             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
